@@ -1,0 +1,4 @@
+# JitPack varsayilan olarak eski bir JDK ile derliyor.
+# Kutuphane Java 17 ile derlendigi icin surumu burada belirtiyoruz.
+jdk:
+  - openjdk17
