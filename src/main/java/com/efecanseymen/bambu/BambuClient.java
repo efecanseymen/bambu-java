@@ -20,7 +20,7 @@ import java.util.function.Consumer;
  *
  * Kullanim:
  * <pre>
- *   BambuClient client = new BambuClient("10.10.10.183", "accessCode", "seriNo");
+ *   BambuClient client = new BambuClient("192.168.1.50", "accessCode", "seriNo");
  *   client.connect();
  *   PrinterStatus s = client.getStatus();
  *   client.setLight(true);

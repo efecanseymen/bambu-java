@@ -31,7 +31,7 @@ Requires Java 17 or newer.
 ## Usage
 
 ```java
-BambuClient client = new BambuClient("10.10.10.183", "accessCode", "serialNumber");
+BambuClient client = new BambuClient("192.168.1.50", "accessCode", "serialNumber");
 client.connect();
 
 PrinterStatus status = client.getStatus();
